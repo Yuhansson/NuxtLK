@@ -64,4 +64,5 @@ export const actions = {
 
 export const getters = {
   isLoggedIn: (state) => Boolean(state.token),
+  token: (state) => state.token,
 }
